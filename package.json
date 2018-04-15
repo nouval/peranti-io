@@ -11,6 +11,11 @@
         "theme",
         "template"
     ],
+    "scripts": {
+        "build": "gulp",
+
+        "prepublish": "npm run build"
+    },
     "homepage": "https://startbootstrap.com/template-overviews/coming-soon",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon/issues",
